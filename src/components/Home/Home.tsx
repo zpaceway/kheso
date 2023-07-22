@@ -23,7 +23,7 @@ const InnerShadow = () => {
 
 const RightMenu = () => {
   return (
-    <div className="absolute bottom-0 right-0 top-0 z-50 flex flex-col justify-center gap-4 px-2">
+    <div className="absolute bottom-0 right-0 top-16 z-50 flex flex-col justify-center gap-4 px-2">
       <div className="flex cursor-pointer flex-col items-center justify-center text-white">
         <div className="text-3xl">
           <AiFillHeart />
