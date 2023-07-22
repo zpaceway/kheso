@@ -21,7 +21,7 @@ const TopMenuTab = ({
   return (
     <div
       onClick={onClick}
-      className={`cursor-pointer ${
+      className={`h-6 cursor-pointer ${
         selectedTab === currentTab
           ? "border-b-[3px] text-white"
           : "text-gray-300"
