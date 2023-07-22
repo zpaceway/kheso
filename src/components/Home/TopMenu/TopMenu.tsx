@@ -1,7 +1,6 @@
 import { FiSearch } from "react-icons/fi";
 
 import { useState } from "react";
-import { BsDot } from "react-icons/bs";
 
 type TopMenuTabType = "for-you" | "following" | "live" | "friends";
 
@@ -36,8 +35,8 @@ const TopMenu = () => {
   const [selectedTab, setSelectedTab] = useState<TopMenuTabType>("for-you");
 
   return (
-    <div className="absolute left-0 right-0 z-50 flex justify-between bg-black bg-opacity-40 px-8 py-4 text-white backdrop-blur-sm">
-      <div className="flex items-center font-black">
+    <div className="absolute left-0 right-0 z-50 flex h-16 items-center justify-between bg-black bg-opacity-40 px-8 text-white backdrop-blur-sm">
+      <div className="flex items-center gap-3 font-black">
         <TopMenuTab
           currentTab="following"
           selectedTab={selectedTab}
@@ -45,9 +44,7 @@ const TopMenu = () => {
         >
           Following
         </TopMenuTab>
-        <div>
-          <BsDot />
-        </div>
+
         <TopMenuTab
           currentTab="for-you"
           selectedTab={selectedTab}
@@ -55,9 +52,7 @@ const TopMenu = () => {
         >
           For You
         </TopMenuTab>
-        <div>
-          <BsDot />
-        </div>
+
         <TopMenuTab
           currentTab="friends"
           selectedTab={selectedTab}
@@ -65,9 +60,7 @@ const TopMenu = () => {
         >
           Friends
         </TopMenuTab>
-        <div>
-          <BsDot />
-        </div>
+
         <TopMenuTab
           currentTab="live"
           selectedTab={selectedTab}
