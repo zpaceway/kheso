@@ -61,7 +61,7 @@ type TabType = "for-you" | "following" | "live";
 const App = () => {
   const [tabSelected, setTabSelected] = useState<TabType>("for-you");
   return (
-    <div className="fixed inset-0 flex h-full w-full justify-center bg-gray-300">
+    <div className="fixed inset-0 flex h-full w-full select-none justify-center bg-gray-300">
       <div className="flex h-full w-full max-w-md flex-col justify-center shadow-md shadow-black">
         <div className="relative h-full w-full">
           <div className="pointer-events-none absolute inset-0 z-50 shadow-[inset_0_0_80px_rgba(0,0,0,1)]"></div>
