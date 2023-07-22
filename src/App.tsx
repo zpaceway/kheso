@@ -107,25 +107,25 @@ const App = () => {
               <div className="text-3xl">
                 <AiFillHeart />
               </div>
-              <div className="text-xs font-semibold">2.7M</div>
+              <div className="text-xs font-medium">2.7M</div>
             </div>
             <div className="flex cursor-pointer flex-col items-center justify-center text-white">
               <div className="text-3xl">
                 <AiFillMessage />
               </div>
-              <div className="text-xs font-semibold">783.4</div>
+              <div className="text-xs font-medium">7834</div>
             </div>
             <div className="flex cursor-pointer flex-col items-center justify-center text-white">
               <div className="text-3xl">
                 <BsFillBookmarkFill />
               </div>
-              <div className="text-xs font-semibold">126.2K</div>
+              <div className="text-xs font-medium">126.2K</div>
             </div>
             <div className="flex cursor-pointer flex-col items-center justify-center text-white">
               <div className="text-3xl">
                 <FaShare />
               </div>
-              <div className="text-xs font-semibold">133.7K</div>
+              <div className="text-xs font-medium">133.7K</div>
             </div>
             <div className="h-10 w-10 cursor-pointer">
               <img
