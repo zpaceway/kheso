@@ -27,7 +27,7 @@ type NavBarItemProps = {
 const NavBarItem = ({ icon }: NavBarItemProps) => {
   return (
     <div className="flex h-10 flex-col items-center justify-between">
-      <div className="text-4xl text-white">{icon}</div>
+      <div className="text-3xl text-white">{icon}</div>
     </div>
   );
 };
