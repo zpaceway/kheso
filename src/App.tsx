@@ -1,5 +1,6 @@
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import { khesoMediaItems } from "./mocks";
 
 type AppWrapperProps = {
   children: React.ReactNode;
@@ -19,7 +20,7 @@ const AppWrapper = ({ children }: AppWrapperProps) => {
 const App = () => {
   return (
     <AppWrapper>
-      <Home />
+      <Home khesoMedia={khesoMediaItems[0]} />
     </AppWrapper>
   );
 };
