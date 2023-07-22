@@ -36,7 +36,7 @@ const TopMenu = () => {
   const [selectedTab, setSelectedTab] = useState<TopMenuTabType>("for-you");
 
   return (
-    <div className="absolute left-0 right-0 z-50 flex justify-between bg-black bg-opacity-60 px-8 py-4 text-white">
+    <div className="absolute left-0 right-0 z-50 flex justify-between bg-black bg-opacity-40 px-8 py-4 text-white backdrop-blur-sm">
       <div className="flex items-center font-black">
         <TopMenuTab
           currentTab="following"
